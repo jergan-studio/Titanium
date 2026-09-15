@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Titanium Builder</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <strong>⚙ Titanium Builder</strong>
+    <button id="addWebsite">+ Website</button>
+    <button id="devtools">Tools / DevTools</button>
+  </header>
+  <main>
+    <aside>
+      <h3>Project</h3>
+      <div>main.js</div>
+      <div>src/</div>
+      <hr>
+      <h3>Website Embed</h3>
+      <label>URL</label>
+      <input id="url" value="https://example.com" placeholder="https://example.com">
+      <label>Width</label>
+      <input id="width" type="number" value="900">
+      <label>Height</label>
+      <input id="height" type="number" value="600">
+      <button id="embed">Embed Website</button>
+    </aside>
+    <section id="canvas" tabindex="0">
+      <div id="empty">Add a website to preview it here.</div>
+    </section>
+  </main>
+  <script type="module" src="./builder.js"></script>
+</body>
+</html>
