@@ -1,0 +1,15 @@
+{
+  "name": "titanium-smooth",
+  "version": "1.0.0",
+  "description": "Titanium Smooth: a lightweight JavaScript runtime for smoother apps and a Java source cleaner.",
+  "type": "module",
+  "main": "main.js",
+  "exports": {
+    ".": "./main.js"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": ["titanium", "smooth", "javascript", "optimizer", "animation"],
+  "license": "MIT"
+}
