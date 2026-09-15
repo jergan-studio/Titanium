@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #101114; color: #f4f4f5; }
+header { height: 56px; display: flex; align-items: center; gap: 10px; padding: 0 16px; border-bottom: 1px solid #292b31; }
+header strong { margin-right: auto; }
+button { border: 1px solid #3a3d46; background: #1b1d22; color: inherit; border-radius: 7px; padding: 9px 12px; cursor: pointer; }
+button:hover { background: #272a31; }
+main { height: calc(100vh - 56px); display: grid; grid-template-columns: 260px 1fr; }
+aside { padding: 16px; border-right: 1px solid #292b31; overflow: auto; }
+aside h3 { margin: 0 0 10px; font-size: 14px; }
+aside div { padding: 6px 0; color: #b8bbc4; }
+label { display: block; margin: 12px 0 5px; font-size: 12px; color: #a9acb5; }
+input { width: 100%; padding: 9px; border: 1px solid #3a3d46; border-radius: 6px; background: #16181c; color: white; }
+#embed { margin-top: 14px; width: 100%; }
+#canvas { position: relative; overflow: auto; padding: 24px; background: #0b0c0f; }
+#empty { color: #777b86; text-align: center; margin-top: 35vh; }
+.website { background: white; position: relative; display: inline-block; border-radius: 5px; overflow: hidden; }
+.website iframe { display: block; border: 0; }
+.context { position: fixed; z-index: 1000; min-width: 190px; padding: 6px; border: 1px solid #3a3d46; border-radius: 8px; background: #181a1f; box-shadow: 0 12px 30px #0008; }
+.context button { display: block; width: 100%; text-align: left; border: 0; border-radius: 5px; }
